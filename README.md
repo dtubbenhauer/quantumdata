@@ -85,7 +85,15 @@ There were two calculation clusters involved.
 
 ### Not B1 Java script
 
-Except the Java script program, the average runtime was computed on the following system.
+Except the Java script program, the average runtime was computed on the following system. The data below was created with
+
+```
+uname -a
+lscpu
+lsblk
+free -h
+```
+and therefore contains some redundant information.
 
 Operating System:
 Linux dani-yoga 6.8.0-52-generic #53-Ubuntu SMP PREEMPT_DYNAMIC Sat Jan 11 00:06:25 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
