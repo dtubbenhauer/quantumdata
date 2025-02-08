@@ -41,7 +41,7 @@ The main calculations ran on the Katana cluster of UNSW.
 
 <a href="https://docs.restech.unsw.edu.au/using_katana/about_katana/">Click</a>
 
-It took about 4 month to complete, with almost all of the time needed for the B1 invariant.
+It took about `4 months` to complete, with almost all of the time needed for the B1 invariant.
 
 ### Katana Cluster Overview
 
