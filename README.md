@@ -10,6 +10,7 @@ An Erratum for the paper *Big data comparison of quantum invariants* can be foun
 If you find any errors in the paper *Big data comparison of quantum invariants* **please email us**:
 
 [dtubbenhauer@gmail.com](mailto:dtubbenhauer@gmail.com?subject=[GitHub]%web-reps)
+
 [victor.zhang3@student.unsw.edu.au](mailto:victor.zhang3@student.unsw.edu.au?subject=[GitHub]%web-reps)
 
 Same goes for any errors related to this page.
