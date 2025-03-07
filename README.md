@@ -3,9 +3,9 @@
 We collected a bit of data and other things relevant for the paper *Big data comparison of quantum invariants*
 (one can download a local version above) on this page.
 
-An Erratum for the paper *Big data comparison of quantum invariants* can be found at the bottom of the page.
+An Erratum for the paper *Big data comparison of quantum invariants* can be found at the [bottom of the page](#erratum).
 
-# Contact
+## Contact
 
 If you find any errors in the paper *Big data comparison of quantum invariants* **please email us**:
 
@@ -15,33 +15,31 @@ If you find any errors in the paper *Big data comparison of quantum invariants* 
 
 Same goes for any errors related to this page.
 
-# Interactive webpage
+## Interactive webpage
 
-It is much more fun to see the data in interactive plots:
-
-<a href="https://dustbringer.github.io/web--knot-invariant-comparison">Click</a>
+It is much more fun to see the data in interactive plots: [Click](https://dustbringer.github.io/web--knot-invariant-comparison)
 
 On that side one can find statistics, roots plots and ballmapper plots.
 
-<div style="text-align: center"><img src="https://github.com/dtubbenhauer/quantumdata/blob/main/roots.png" width="800" height="800" style="border: 0px;" /></div>
+![](md/roots.png)
 
-# Jave script for B1 computation
 
-TO BE DONE
+## Javascript for B1 computation
 
-# Data files
+Our Javascript script to calculate the B1 invariant is available at `/scripts/evaluator`. See [this page](md/javascript-script.md) for more details for how to run it.
 
-On this webpage one can find the list of knots, the list of calculated invariants, a few statistics (as in the paper) and colors for the ballmapper.
+## Data files
+This repository contains the list of knots used (from [KnotInfo](https://knotinfo.math.indiana.edu/homelinks/database_download.php)), the list of calculated invariants,
+a few statistics (as in the paper), colors for the ballmapper, and data used to generate the ballmapper and roots on the interactive website. The ballmappers data is
+calculated with code based off [Davide Gurnari's mapper visualisation code](https://github.com/dgurnari/mapper_maps).
 
-All can be downloaded above. Since the files are fairly large, they are compressed to .7z files and can be easily extracted.
+All can be downloaded above. Since the files are fairly large, they are compressed to `.7z` files and can be easily extracted.
 
-# How we calculated everything
 
-The main calculations ran on the Katana cluster of UNSW.
+## How we calculated everything
+The main calculations ran on the [Katana](https://docs.restech.unsw.edu.au/using_katana/about_katana/) cluster of UNSW.
 
-<a href="https://docs.restech.unsw.edu.au/using_katana/about_katana/">Click</a>
-
-It took about `4 months` to complete, with almost all of the time needed for the B1 invariant.
+It took about _4 months_ to complete, with almost all of the time needed for the B1 invariant.
 
 ### Katana Cluster Overview
 
@@ -79,13 +77,13 @@ Katana serves as a training or development base before transitioning to systems 
 
 For detailed specifications of compute nodes, refer to the full compute node information section.
 
-# Average runtime
+## Average runtime
 
 There were two calculation clusters involved.
 
-### Not B1 Java script
+### Not B1 Javascript
 
-Except the Java script program, the average runtime was computed on the following system. The data below was created with
+Except the Javascript program, the average runtime was computed on the following system. The data below was created with
 
 ```
 uname -a
@@ -142,10 +140,9 @@ Virtualization:
 Vulnerability Mitigations:
 All major vulnerabilities (e.g., Spectre, Meltdown) are mitigated or not affected.
 
-### B1 Java script
+### B1 Javascript
 
-The Java script program for the B1 invariant
-was run on the Katana as above.
+The Javascript program for the B1 invariant was run on the Katana as above.
 
 # Erratum
 
