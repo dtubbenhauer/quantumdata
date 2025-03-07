@@ -1,0 +1,26 @@
+{
+  "name": "evaluator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "r": "ts-node index.ts",
+    "ts-node-mem": "node --max_old_space_size=16384 -r ts-node/register",
+    "ts-node": "ts-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.6.2",
+    "v8-profiler-next": "^1.10.0"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "ts-node": "^10.9.2"
+  },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+}
