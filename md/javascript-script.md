@@ -40,6 +40,8 @@ The main calculation scripts are in `/scripts/evaluator/modules`
 The file `index.ts` is a gateway to "the main stuff". It essentially parses user input, runs `evaluateKnot` from `evaluate-q-knot.ts` on the right knots, parses it's output into something comprehensible and writes it to a file.
 
 ### What are these "coefficients"?
+> The relations shown in this section should be consistent with Section 5 of [this paper](https://arxiv.org/abs/2307.00785).
+
 The local (B1) web relations on trivalent graphs, used in `evaluate-q.ts`, `evaluate-q-new.ts` and `evaluate-q-knot.ts`, are the following.
 ![](b1-rel-web-1.png)
 - The first line is `circle`
@@ -70,7 +72,7 @@ Indeed this will take an exponential number of steps. This strategy is applied i
 
 To speed this up, we can use an iterative approach by storing all the recursion "branches" and applying some reductions between applications of the relation.
 This strategy is employed in `evaluate-q-new.ts` and `evaluate-q-knot.ts`. In between applying relations, equal knots/graphs are grouped together
-and simple features of each knot/graph are ironed out (for example: removing twists in knots, reducing faces whose relation only has one term).
+and simple features of each knot/graph are ironed out (for example: removing twists in knots, reducing faces whose relation only have one term).
 
 After we have applied all the relations that we can, we are left with something that can be evaluated to a polynomial.
 Some parts of the algorithm store lists of "coefficients" which need to be expanded out into a real polynomial.
