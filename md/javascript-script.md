@@ -4,8 +4,11 @@ The script is found at `/scripts/evaluator`
 
 ## Installation
 
-The script runs on NodeJS using the `pnpm` package manager. These all be installed by following instructions on [this website](https://nodejs.org/en/download).
-- The script was written using `node` version `v20.17.0`. Any newer version should work fine; if you want to be safe you can install any of the `v20.xx.x` versions.
+The script runs on NodeJS using the `pnpm` package manager.
+- NodeJS and `npm` (the basic package manager) can be installed by following instructions on [this website](https://nodejs.org/en/download).
+  - The script was written using `node` version `v20.17.0`. Any newer version should work fine; if you want to be safe you can install any of the `v20.xx.x` versions.
+- If you installed `node` using a prebuilt binary, you may also have to install `pnpm` via [this website](https://pnpm.io/installation), for example using `corepack`.
+  - For those feeling this is too complicated, all the following can be done without `pnpm`, just replace `pnpm` with `npm` in all instructions that follow.
 
 After installing, open a terminal in the `/scripts/evaluator` folder and run `pnpm install` to install the dependencies.
 
