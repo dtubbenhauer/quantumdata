@@ -1,7 +1,7 @@
 # Code and Erratum for *Big data comparison of quantum invariants*
 
 We collected a bit of data and other things relevant for the paper *Big data comparison of quantum invariants*
-(one can download a local version above) on this page.
+<a href="https://arxiv.org/abs/2503.15810">https://arxiv.org/abs/2503.15810</a> on this page.
 
 An Erratum for the paper *Big data comparison of quantum invariants* can be found at the [bottom of the page](#erratum).
 
