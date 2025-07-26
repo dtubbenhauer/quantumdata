@@ -33,7 +33,7 @@ This repository contains the list of knots (up to 16 crossings) used (from [Knot
 a few statistics (as in the paper), colors for the ballmapper, and data used to generate the ballmapper and roots on the interactive website. Data up to 18 crossings is >50GB so is not included in this repository.
 
 The current ballmapper data is `bm.Graph.edges` and `bm.points_covered_by_landmarks` computed using [pyBallMapper](https://github.com/dioscuri-tda/pyBallMapper) with parameters mentioned in the paper.
-The current ballmapper visualization is built using `d3` and `d3.force` javascript plotting libraries.
+The current ballmapper visualization is built using `d3` and `d3.force` javascript plotting libraries. The source code for the website is available on [GitHub](https://github.com/dustbringer/web--knot-invariant-comparison).
 The legacy ballmapper visualization is calculated with code based off [Davide Gurnari's mapper visualisation code](https://github.com/dgurnari/mapper_maps).
 
 All data mentioned can be downloaded above. Since the files are fairly large, they are compressed to `.7z` files and can be easily extracted.

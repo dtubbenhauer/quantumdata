@@ -55,7 +55,7 @@ const getSpan = <T>(arr: Array<T>, symbol: T) => {
 };
 mapLines(filename, (line) => getSpan(line.split(","), "0")).then((res) => {
   writeLines(
-    `../../stat/stat-span-${type}-3-16.out`,
+    `../../stat/stat-spread-${type}-3-16.out`,
     res.map((n) => `${n}`)
   );
 });

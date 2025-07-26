@@ -10,7 +10,7 @@ const nPrimeKnots = [
 ];
 
 const type = "b1";
-const statType = ["maxAbs", "sumAbs", "span", "avgAbs"][2];
+const statType = ["maxAbs", "sumAbs", "spread", "avgAbs"][2];
 console.log(`(${type}, ${statType})`);
 
 const stats = readLines(`../../stat/stat-${statType}-${type}-3-16.out`).map(
