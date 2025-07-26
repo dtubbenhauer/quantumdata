@@ -11,7 +11,7 @@ If you find any errors in the paper *Big data comparison of quantum invariants* 
 
 [dtubbenhauer@gmail.com](mailto:dtubbenhauer@gmail.com?subject=[GitHub]%web-reps)
 
-[victor.zhang3@student.unsw.edu.au](mailto:victor.zhang3@student.unsw.edu.au?subject=[GitHub]%web-reps)
+[victor.l.zhang@unsw.edu.au](mailto:victor.l.zhang@unsw.edu.au?subject=[GitHub]%web-reps)
 
 Same goes for any errors related to this page.
 
@@ -29,11 +29,14 @@ On that side one can find statistics, roots plots and ballmapper plots.
 Our Javascript script to calculate the B1 invariant is available at `/scripts/evaluator`. See [this page](md/javascript-script.md) for more details for how to run it.
 
 ## Data files
-This repository contains the list of knots used (from [KnotInfo](https://knotinfo.math.indiana.edu/homelinks/database_download.php)), the list of calculated invariants,
-a few statistics (as in the paper), colors for the ballmapper, and data used to generate the ballmapper and roots on the interactive website. The ballmappers data is
-calculated with code based off [Davide Gurnari's mapper visualisation code](https://github.com/dgurnari/mapper_maps).
+This repository contains the list of knots (up to 16 crossings) used (from [KnotInfo](https://knotinfo.math.indiana.edu/homelinks/database_download.php)), the list of calculated invariants,
+a few statistics (as in the paper), colors for the ballmapper, and data used to generate the ballmapper and roots on the interactive website. Data up to 18 crossings is >50GB so is not included in this repository.
 
-All can be downloaded above. Since the files are fairly large, they are compressed to `.7z` files and can be easily extracted.
+The current ballmapper data is `bm.Graph.edges` and `bm.points_covered_by_landmarks` computed using [pyBallMapper](https://github.com/dioscuri-tda/pyBallMapper) with parameters mentioned in the paper.
+The current ballmapper visualization is built using `d3` and `d3.force` javascript plotting libraries.
+The legacy ballmapper visualization is calculated with code based off [Davide Gurnari's mapper visualisation code](https://github.com/dgurnari/mapper_maps).
+
+All data mentioned can be downloaded above. Since the files are fairly large, they are compressed to `.7z` files and can be easily extracted.
 
 
 ## How we calculated everything
