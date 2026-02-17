@@ -29,6 +29,9 @@ The output is a polynomial in the form of a JSON object (one on each line). For 
 ```
 is the polynomial `2*q^-2 - q^-1 + 3 + q + 7*q^2`. This is also the form which the data in this repository is stored.
 
+**Warning!** The output polynomial of the script must be multiplied by `q^{4*writhe(K)}` for each knot `K`. The writhes of the knots can be calculated or found in the file `/knots/writhe-3-16.txt`. The output of the program is related to the 2-coloured Jones polynomial as follows.
+![](b1-to-2colJones.png)
+
 ### What is actually being run?
 The main calculation scripts are in `/scripts/evaluator/modules`
 - `knots`
